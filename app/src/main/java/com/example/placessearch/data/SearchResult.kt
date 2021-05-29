@@ -1,0 +1,7 @@
+package com.example.placessearch.data
+
+import com.google.gson.annotations.SerializedName
+
+data class SearchResult (
+    @SerializedName("description") val description: String
+)
